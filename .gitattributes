@@ -1,2 +1,2 @@
-infra/ linguist-vendored
-cookiecutter/ linguist-vendored
+infra/** linguist-vendored
+cookiecutter/** linguist-vendored

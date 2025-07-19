@@ -304,7 +304,7 @@ Project specific options are prefixed with `BEMAN_EXEMPLAR`.
 You can see the list of available options with:
 
 ```bash
-cmake -LH | grep "BEMAN_EXEMPLAR" -C 2
+cmake -LH -S . -B build | grep "BEMAN_EXEMPLAR" -C 2
 ```
 
 <details>

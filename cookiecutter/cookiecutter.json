@@ -4,6 +4,7 @@
   "paper": "PnnnnRr",
   "owner": "github-user-name",
   "description": "Short project description.",
+  "godbolt_link": "https://www.example.com",
   "_copy_without_render": [
     "infra",
     ".github/workflows"

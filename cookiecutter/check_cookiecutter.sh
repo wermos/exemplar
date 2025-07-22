@@ -17,7 +17,8 @@ function check_consistency() {
         cpp_build_version="17" \
         paper="P0898R3" \
         owner="bemanproject" \
-        description="A Beman Library Exemplar"
+        description="A Beman Library Exemplar" \
+        godbolt_link="https://godbolt.org/z/4qEPK87va"
     cp "$script_dir"/../.github/workflows/cookiecutter_test.yml "$out_dir_path"/exemplar/.github/workflows
     local diff_path
     diff_path=$(mktemp)
@@ -46,7 +47,8 @@ function check_templating() {
         cpp_build_version="17" \
         paper="P0898R3" \
         owner="bemanproject" \
-        description="A Beman Library RLZrmX9NfS"
+        description="A Beman Library RLZrmX9NfS" \
+        godbolt_link="https://godbolt.org/z/4qEPK87va"
     rm -rf "$out_dir_path/RLZrmX9NfS/infra"
     local grep_path
     grep_path=$(mktemp)
